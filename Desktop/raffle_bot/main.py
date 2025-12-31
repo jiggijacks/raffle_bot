@@ -1,5 +1,5 @@
 import asyncio
-from .bot import dp, bot
+from bot import dp, bot
 from webhook import app
 from database import Base, engine
 import uvicorn

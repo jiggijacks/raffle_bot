@@ -8,7 +8,7 @@ from aiogram.types import (
 )
 from paystack import initialize_payment
 from database import SessionLocal
-from .models import Ticket
+from models import Ticket
 
 bot = Bot(os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
